@@ -18,6 +18,7 @@ body {
 	background-position: center, center, center;
 	height: 100%;	
 	overflow: hidden;
+	position: relative;
 }
 
 .card {
@@ -28,6 +29,10 @@ body {
 	font-size: 0;
 	border-radius: 10px;
 	box-shadow: 0 0 20px #111a28;
+	position: absolute;
+	left: 11%;
+	right: 11%;
+	transform: translate(-50%;-50%);
 }
 
 .card__logo {
@@ -179,4 +184,15 @@ body {
 
 .card__action:hover {
 	background-color: #202835;
+}
+
+.form__button {
+	width: 100%;
+	padding: 15px;
+	background: #;
+	color: #fff;
+	display: block;
+	
+
+	
 }
