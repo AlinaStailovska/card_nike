@@ -18,21 +18,16 @@ body {
 	background-position: center, center, center;
 	height: 100%;	
 	overflow: hidden;
-	position: relative;
 }
 
 .card {
 	background-color: #111a28;
 	width: 685px;
 	height: 385px;
-	margin: 30px auto;
+	margin: 140px auto;
 	font-size: 0;
 	border-radius: 10px;
 	box-shadow: 0 0 20px #111a28;
-	position: absolute;
-	left: 11%;
-	right: 11%;
-	transform: translate(-50%;-50%);
 }
 
 .card__logo {
@@ -192,7 +187,4 @@ body {
 	background: #;
 	color: #fff;
 	display: block;
-	
-
-	
 }
